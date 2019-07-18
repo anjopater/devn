@@ -1,0 +1,58 @@
+.servicios-section {
+  background-color: #4e9aff;
+  background-image: url("../../assets/img/bg-home.png");
+  background-size: cover;
+
+  .text-console {
+    font-family: monospace;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: left;
+    line-height: 1.5;
+
+    span {
+      color: #f4c305;
+    }
+
+    &.content-text-36 {
+      width: 36%;
+    }
+  }
+
+  .button-primary {
+    background-color: #4e9aff;
+    border-radius: 12px;
+    border: 1px solid #fff;
+    padding: 7px;
+    color: #fff;
+  }
+
+  .img-home {
+    width: 400px;
+  }
+}
+
+.flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.m-t-md {
+  margin-top: 20px;
+}
+
+.m-t-lg {
+  margin-top: 20px;
+}
+
+.p-t-md {
+  padding-top: 20px;
+}
+
+.m-space-8 {
+    margin: 0px 8%;
+}
