@@ -45,14 +45,36 @@
   .content-services {
     display: flex;
     justify-content: space-around;
-    margin: 15px 13%;
+    margin: 3em 13%;
+    padding-bottom: 5em;
 
     .feature-item {
       max-width: 16em;
     }
   }
-  
 }
+
+
+.proceso-section {
+  .title {
+    color: #63a9ff;
+    font-size: 1.8em;
+    font-weight: 600;
+  }
+
+  .content-proceso {
+    display: flex;
+    justify-content: space-around;
+    margin: 3em 13%;
+    padding-bottom: 5em;
+
+    .feature-item {
+    // max-width: 16em;
+    }
+  }
+}
+
+
 
 .flex-evenly {
   display: flex;
