@@ -1,3 +1,13 @@
+
+  @mixin field-style {
+    border: 0px;
+    border-radius: 15px;
+    height: 1.4em;
+    padding: 5px 10px;
+    width: 16em;
+    margin: 8px;
+  }
+
 .home-section {
   background-color: #4e9aff;
   background-image: url("../../assets/img/bg-home.png");
@@ -69,7 +79,7 @@
   .content-proceso {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 5em;
+    padding-bottom: 0em;
     margin: 9em 13% 0em 13%;
 
     .feature-item {
@@ -79,11 +89,11 @@
 }
 
 .para-section {
-  background-color: transparent;
+  background-color: #f7f7f7;
   background-image: url("../../assets/img/breathe-bg.png");
   background-size: cover;
   position: relative;
-  top: -173px;
+  
 
   h1 {
     margin: 0px;
@@ -91,7 +101,7 @@
     font-size: 3em;
     font-weight: 600;
     color: #FFF;
-    margin-top: 25px;
+    
 
     span {
       color: rgb(255, 194, 64);
@@ -100,15 +110,123 @@
 }
 
 .areas-section {
+  background-color: #f7f7f7;
+
   .content-services {
     display: flex;
     justify-content: space-around;
-    margin: 3em 13%;
+    margin: 0em 13%;
     padding-bottom: 5em;
+    padding-top: 3em;
 
     .feature-item {
       max-width: 16em;
     }
+
+    .feature-item-areas {
+      img {
+        width: 6.1em;
+      }
+    }
+  }
+}
+
+.areas-seu-projeto {
+  .title {
+    color: #63a9ff;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 4em;
+  }
+
+ .content-seu-projecto {
+    margin: 4em 15% 2em 15%;
+ }
+
+    h2 {
+      color: #fff;
+    }
+
+    .content-inputs {
+      display: flex;
+      justify-content: center;
+      color: #FFF;
+
+      .input {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        margin: 0 2em;
+      }
+    }
+
+    .content-input-text {
+      margin: 0 2.4em;
+      input {
+        @include field-style;
+      }
+
+      select {
+        @include field-style;
+        height: 2.2em;
+        width: 17.5em;
+      }
+    }
+
+    .content-input-textarea {
+      margin: 0 2.4em;
+      display: flex;
+      textarea {
+        @include field-style;
+        width: 100%;
+        height: 5.5em;
+      }
+    }
+    
+    .enviar-button {
+      background-color: #4e9aff;
+      border-radius: 3em;
+      border: 1px solid #fff;
+      padding: 10px 19px;
+      color: #fff;
+      letter-spacing: 1px;
+      font-weight: 600;
+      width: 20em;
+    }
+}
+
+.gostou-section {
+  background-color: #FFF;
+  background-image: url("../../assets/img/breathe-bg-inverted.png");
+  background-size: cover;
+  position: relative;
+  
+  .content-gostou {
+    padding-bottom: 4em;
+  }
+
+  h1 {
+    margin: 0px;
+    padding: 5.5em 6em 0em;
+    font-size: 3em;
+    font-weight: 600;
+    color: #FFF;
+  }
+
+  h2 {
+    font-size: 1.8em;
+    color: #FFF;
+    margin-top: 2em;
+  }
+
+  p {
+    font-size: 1.3em;
+    width: 33em;
+    margin: 0px auto;
+    line-height: 2;
+    color: #FFF;
+    line-height: 2;
+    padding-bottom: 6em;
   }
 }
 
@@ -138,12 +256,20 @@
   margin-top: 20px;
 }
 
+.m-b-lg {
+  margin-bottom: 30px;
+}
+
 .m-t-xl {
   margin-top: 40px;
 }
 
 .m-b-xl {
   margin-bottom: 40px;
+}
+
+.m-b-25 {
+  margin-bottom: 25px;
 }
 
 .p-t-md {
@@ -157,4 +283,12 @@
 .m-space-8 {
   margin: 4em 0%;
   padding-bottom: 17em;
+}
+
+.b-r-3em {
+  border-radius: 3em !important;
+}
+
+.b-r-1-5em {
+  border-radius: 1.5em;
 }

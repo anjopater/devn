@@ -4,6 +4,7 @@ import './Home.scss';
 import Header from '../Header';
 import FeatureItem from '../FeatureItem';
 import DescriptionCard from '../DescriptionCard';
+import ContentFields from '../ContentFields';
 
 import logoAplicativos from '../../assets/icons/dev-app.svg';
 import logoWeb from '../../assets/icons/web-system.svg';
@@ -59,9 +60,95 @@ export default class Home extends Component {
                 </section>
                 <section className="areas-section">
                 <div className="content-services">
-                        <FeatureItem logo={logoTiCompanies} title="Empresa de T.I" description="Focados em alto desenpenho e aseguranca." />
-                        <FeatureItem logo={logoAgencies} title="Para Agencias" description="Com interfaces clean e intuitivas." />
-                        <FeatureItem logo={logoStartup} title="Startup's" description="Criamos a indentidade visual e pensamos na usabilidade e na experiencia do usuario." />
+                        <FeatureItem className="feature-item-areas" logo={logoTiCompanies} title="Empresa de T.I" description="Focados em alto desenpenho e aseguranca." />
+                        <FeatureItem className="feature-item-areas" logo={logoAgencies} title="Para Agencias" description="Com interfaces clean e intuitivas." />
+                        <FeatureItem className="feature-item-areas" logo={logoStartup} title="Startup's" description="Criamos a indentidade visual e pensamos na usabilidade e na experiencia do usuario." />
+                    </div>
+                </section>
+                <section className="areas-seu-projeto">
+                    <h2 className="title m-b-xl">Agora chegou a hora de saber mais<br/> sobre seu projetos!</h2>
+                    <div className="content-seu-projecto">
+                    <div className="content-form">
+                    <ContentFields className="m-b-lg">
+                        <h2>1. Qual è o tipo de seu projecto?</h2>
+                        <div className="content-inputs">
+                            <div className="input">
+                                <input type="checkbox" id="scales" name="scales"   />
+                                <label for="scales">IOS</label>
+                            </div>
+                            <div className="input">
+                                <input type="checkbox" id="scales" name="scales"   />
+                                <label for="scales">Android</label>
+                            </div>
+                            <div className="input">
+                                <input type="checkbox" id="scales" name="scales"   />
+                                <label for="scales">Sistema Web</label>
+                            </div>
+                            <div className="input">
+                                <input type="checkbox" id="scales" name="scales"   />
+                                <label for="scales">Smartwatch</label>
+                            </div>
+                            <div className="input">
+                                <input type="checkbox" id="scales" name="scales"   />
+                                <label for="scales">Site</label>
+                            </div>
+                            <div className="input">
+                                <input type="checkbox" id="scales" name="scales"   />
+                                <label for="scales">Criacao/Integracao WEB API</label>
+                            </div>
+                        </div>                        
+                    </ContentFields>
+                    <ContentFields className="m-b-lg">
+                        <h2>2. Qual è o estagio do projecto</h2>
+                        <div className="content-inputs">
+                            <div className="input">
+                                <input type="checkbox" id="scales" name="scales"   />
+                                <label for="scales">Ideia</label>
+                            </div>
+                            <div className="input">
+                                <input type="checkbox" id="scales" name="scales"   />
+                                <label for="scales">Execucao</label>
+                            </div>
+                            <div className="input">
+                                <input type="checkbox" id="scales" name="scales"   />
+                                <label for="scales">Manutencao</label>
+                            </div>
+                        </div>
+                    </ContentFields>
+                    <ContentFields className="m-b-lg b-r-3em">
+                        <h2 className="m-b-25">3. Informacoes Pessoais</h2>
+                        <div className="content-input-text">
+                            <input type="text" id="scales" name="scales"   />
+                            <input type="text" id="scales" name="scales"   />
+                            <input type="text" id="scales" name="scales"   />
+                        </div>
+                        <div className="content-input-text">
+                            <input type="text" id="scales" name="scales"   />
+                            <input type="text" id="scales" name="scales"   />
+                            <input type="text" id="scales" name="scales"   />
+                        </div>
+                        <div className="content-input-textarea">
+                            <textarea></textarea>
+                        </div>
+                        <div className="content-input-text">
+                            <select>
+                                <option>a</option>
+                                <option>a</option>
+                                <option>a</option>
+                            </select>
+                        </div>
+                    </ContentFields>
+                        </div>
+                    </div>
+                    <div>
+                        <button className="enviar-button">ENVIAR</button>
+                    </div>
+                </section>
+                <section className="gostou-section">
+                    <div className="content-gostou">
+                     <h1>Gostou da gente?</h1>
+                     <h2>Vamos bater um papo. O catè è por nossa conta!</h2>
+                     <p>Ou manda um e-mail, whats, carta, pombo correio, sinal de fumaca...)</p>
                     </div>
                 </section>
             </div>
