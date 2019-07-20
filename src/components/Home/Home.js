@@ -5,6 +5,7 @@ import Header from '../Header';
 import FeatureItem from '../FeatureItem';
 import DescriptionCard from '../DescriptionCard';
 import ContentFields from '../ContentFields';
+import Footer from '../Footer';
 
 import logoAplicativos from '../../assets/icons/dev-app.svg';
 import logoWeb from '../../assets/icons/web-system.svg';
@@ -17,6 +18,8 @@ import logoIdeia from '../../assets/icons/idea.svg';
 import logoTiCompanies from '../../assets/icons/ti-companies.svg';
 import logoAgencies from '../../assets/icons/agencies.svg';
 import logoStartup from '../../assets/icons/startups.svg';
+
+import logoFooter from '../../assets/img/logo-devninjas-color.png';
 
 export default class Home extends Component {
 
@@ -151,6 +154,9 @@ export default class Home extends Component {
                      <p>Ou manda um e-mail, whats, carta, pombo correio, sinal de fumaca...)</p>
                     </div>
                 </section>
+                <Footer logo={logoFooter}>
+
+                </Footer>
             </div>
         )
     }
