@@ -10,7 +10,7 @@ class DescriptionCard extends Component {
         }
 
         const separatorStyle = {
-
+            border: `1px solid ${color}`
         }
 
         return (
@@ -18,7 +18,7 @@ class DescriptionCard extends Component {
                 <img src={logo} />
                 <h2 style={titleStyle} >{title}</h2>
                 <hr style={separatorStyle}></hr>
-                <p>
+                <p className="m-t-30">
                     {description}
                 </p>
             </div>

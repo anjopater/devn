@@ -56,6 +56,10 @@
 
 
 .proceso-section {
+  background-color: #f7f7f7;
+  padding-top: 6em;
+  padding-bottom: 12em;
+
   .title {
     color: #63a9ff;
     font-size: 1.8em;
@@ -65,11 +69,45 @@
   .content-proceso {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 5em;
+    margin: 9em 13% 0em 13%;
+
+    .feature-item {
+    // max-width: 16em;
+    }
+  }
+}
+
+.para-section {
+  background-color: transparent;
+  background-image: url("../../assets/img/breathe-bg.png");
+  background-size: cover;
+  position: relative;
+  top: -173px;
+
+  h1 {
+    margin: 0px;
+    padding: 7em 6em;
+    font-size: 3em;
+    font-weight: 600;
+    color: #FFF;
+    margin-top: 25px;
+
+    span {
+      color: rgb(255, 194, 64);
+    }
+  }
+}
+
+.areas-section {
+  .content-services {
+    display: flex;
+    justify-content: space-around;
     margin: 3em 13%;
     padding-bottom: 5em;
 
     .feature-item {
-    // max-width: 16em;
+      max-width: 16em;
     }
   }
 }
@@ -110,6 +148,10 @@
 
 .p-t-md {
   padding-top: 20px;
+}
+
+.m-t-30 {
+  margin-top: 30px;
 }
 
 .m-space-8 {
