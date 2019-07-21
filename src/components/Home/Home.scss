@@ -4,7 +4,7 @@
     border-radius: 15px;
     height: 1.4em;
     padding: 5px 10px;
-    width: 16em;
+   // width: 16em;
     margin: 8px;
   }
 
@@ -12,22 +12,23 @@
   background-color: #4e9aff;
   background-image: url("../../assets/img/bg-home.png");
   background-size: cover;
+  padding-bottom: 15em;
 
   .text-console {
     font-family: monospace;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #fff;
     text-align: left;
     line-height: 1.3;
     font-weight: 600;
+    padding-right: 4em;
 
     span {
       color: #f4c305;
     }
 
     &.content-text-36 {
-      width: 36%;
-      padding-bottom: 2.6em;
+      //padding-top: 5em;
     }
   }
 
@@ -41,14 +42,15 @@
   }
 
   .img-home {
-    width: 460px;
+    width: 31em;
+    padding-top: 50px;
   }
 }
 
 .servicio-section {
   .title {
     color: #63a9ff;
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-weight: 600;
   }
 
@@ -68,11 +70,11 @@
 .proceso-section {
   background-color: #f7f7f7;
   padding-top: 6em;
-  padding-bottom: 12em;
+  padding-bottom: 6em;
 
   .title {
     color: #63a9ff;
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-weight: 600;
   }
 
@@ -145,6 +147,7 @@
 
     h2 {
       color: #fff;
+      margin-top: 0px;
     }
 
     .content-inputs {
@@ -161,20 +164,27 @@
     }
 
     .content-input-text {
-      margin: 0 2.4em;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       input {
         @include field-style;
       }
 
-      select {
-        @include field-style;
-        height: 2.2em;
-        width: 17.5em;
-      }
+
+    }
+
+    select {
+      @include field-style;
+      border: 0px;
+      border-radius: 15px;
+      height: 2em;
+      padding: 5px 10px;
+      margin: 8px;
+      width: 32%;
     }
 
     .content-input-textarea {
-      margin: 0 2.4em;
+      //margin: 0 2.4em;
       display: flex;
       textarea {
         @include field-style;
@@ -202,7 +212,7 @@
   position: relative;
   
   .content-gostou {
-    padding-bottom: 4em;
+    padding-bottom: 13em;
   }
 
   h1 {
@@ -281,8 +291,11 @@
 }
 
 .m-space-8 {
-  margin: 4em 0%;
   padding-bottom: 17em;
+  padding-top: 6em;
+  padding: 0 13%;
+  justify-content: space-between;
+  padding-top: 6em;
 }
 
 .b-r-3em {
