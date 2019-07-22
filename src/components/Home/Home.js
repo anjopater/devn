@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import imgHome from '../../assets/img/img-home.png';
-import './Home.scss';
 import Header from '../Header';
 import FeatureItem from '../FeatureItem';
 import DescriptionCard from '../DescriptionCard';
@@ -18,8 +17,9 @@ import logoIdeia from '../../assets/icons/idea.svg';
 import logoTiCompanies from '../../assets/icons/ti-companies.svg';
 import logoAgencies from '../../assets/icons/agencies.svg';
 import logoStartup from '../../assets/icons/startups.svg';
-
 import logoFooter from '../../assets/img/logo-devninjas-color.png';
+
+import './Home.scss';
 
 export default class Home extends Component {
 

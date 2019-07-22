@@ -11,11 +11,12 @@ export default class Header extends Component {
 
     render() {
         return (
-
-            <div className="header-app">
+            <header className="header-app">
                 <div className="content-options">
+                    <input className="menu-btn" type="checkbox" id="menu-btn" />
+                    <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
                     <img src={logo} alt="logo dev ninja" onClick={this.scrollToTop} />
-                    <ul>
+                    <ul className="menu">
                         <li>
                             <Link
                                 activeClass="active"
@@ -66,7 +67,7 @@ export default class Header extends Component {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </header>
         )
     }
 }
