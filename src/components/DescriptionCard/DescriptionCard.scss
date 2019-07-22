@@ -9,6 +9,11 @@
   margin: 0 10px;
   line-height: 1.5;
   box-shadow: 0 0px 50px rgba(0, 0, 0, 0.05);
+  max-width: 25em;
+
+  @media screen and (max-width: 930px) {
+    margin: 0px auto;
+  }
 
   img {
     width: 5.4em;

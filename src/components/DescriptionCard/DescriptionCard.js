@@ -15,7 +15,7 @@ class DescriptionCard extends Component {
 
         return (
             <div className="description-card">
-                <img src={logo} />
+                <img alt="" src={logo} />
                 <h2 style={titleStyle} >{title}</h2>
                 <hr style={separatorStyle}></hr>
                 <p className="m-t-30">

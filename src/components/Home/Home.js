@@ -48,9 +48,10 @@ export default class Home extends Component {
                 <section id="section3" className="proceso-section">
                     <h2 className="title m-b-xl">Proceso de Desenvolvimento</h2>
                     <div className="content-proceso">
-                        <DescriptionCard title="1 - Ideia" color="#ffc240" logo={logoIdeia} description="When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. You also get notifications. when you create an account, we remember exactly what you’ve read, so you always come right back where you left off. you also get notifications" />
-                        <DescriptionCard title="2 - Wireframe" color="#4e9aff" logo={logoWireframe} description="When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. You also get notifications.  When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. you also get notifications" />
-                        <DescriptionCard title="3 - Design" color="#ff8b40" logo={logoDesign} description="When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. You also get notifications. when you create an account, we remember exactly what you’ve read, so you always come right back where you left off. you also get notifications" />
+                        <DescriptionCard title="1 - Ideia" color="#ffc240" logo={logoIdeia} description="Uma ideia é o primeiro e mais óbvio dos actos da percepção pelo facto de se limitar ao simples conhecimento de algo. Trata-se de uma imagem ou representação mental de um objecto.
+A ideia é também o conhecimento puro." />
+                        <DescriptionCard title="2 - Wireframe" color="#4e9aff" logo={logoWireframe} description="Wireframe é um desenho básico, como um esqueleto, que demonstra de forma direta a arquitetura de como o objeto (interface, página da internet, modelo, etc.) final será de acordo com as especificações relatadas." />
+                        <DescriptionCard title="3 - Design" color="#ff8b40" logo={logoDesign} description="El diseño1​ se define como el proceso previo de configuración mental, «prefiguración», en la búsqueda de una solución en cualquier campo. Se aplica habitualmente en el contexto de la industria, ingeniería, arquitectura, comunicación y otras disciplinas que requieren creatividad." />
                     </div>
                 </section>
                 <section className="para-section">

@@ -31,7 +31,6 @@ export default class Header extends Component {
                         </li>
                         <li>
                             <Link
-                                activeClass="active"
                                 to="section2"
                                 spy={true}
                                 smooth={true}
@@ -43,7 +42,6 @@ export default class Header extends Component {
                         </li>
                         <li>
                             <Link
-                                activeClass="active"
                                 to="section3"
                                 spy={true}
                                 smooth={true}
@@ -55,7 +53,6 @@ export default class Header extends Component {
                         </li>
                         <li>
                             <Link
-                                activeClass="active"
                                 to="section4"
                                 spy={true}
                                 smooth={true}

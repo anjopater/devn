@@ -7,7 +7,7 @@ class Footer extends Component {
         const { logo, className } = this.props;
         return (
             <div className={classnames("footer", className)}>
-                <img src={logo} />
+                <img alt="logo devninja" src={logo} />
                 <div className="m-t-lg">contato@devninja.com.br</div>
                 <div>44 3123-8848</div>
                 <div className="small">Av. Monteiro Lobato, 1214 - Zona 08, Maringà - PR, 87050-280</div>
