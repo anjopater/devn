@@ -48,100 +48,100 @@ export default class Home extends Component {
                 <section id="section3" className="proceso-section">
                     <h2 className="title m-b-xl">Proceso de Desenvolvimento</h2>
                     <div className="content-proceso">
-                     <DescriptionCard title="1 - Ideia" color="#ffc240" logo={logoIdeia} description="When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. You also get notifications. when you create an account, we remember exactly what you’ve read, so you always come right back where you left off. you also get notifications"/>
-                     <DescriptionCard title="2 - Wireframe" color="#4e9aff" logo={logoWireframe} description="When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. You also get notifications.  When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. you also get notifications"/>
-                     <DescriptionCard title="3 - Design" color="#ff8b40" logo={logoDesign} description="When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. You also get notifications. when you create an account, we remember exactly what you’ve read, so you always come right back where you left off. you also get notifications"/>
+                        <DescriptionCard title="1 - Ideia" color="#ffc240" logo={logoIdeia} description="When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. You also get notifications. when you create an account, we remember exactly what you’ve read, so you always come right back where you left off. you also get notifications" />
+                        <DescriptionCard title="2 - Wireframe" color="#4e9aff" logo={logoWireframe} description="When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. You also get notifications.  When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. you also get notifications" />
+                        <DescriptionCard title="3 - Design" color="#ff8b40" logo={logoDesign} description="When you create an account, we remember exactly what you’ve read, so you always come right back where you left off. You also get notifications. when you create an account, we remember exactly what you’ve read, so you always come right back where you left off. you also get notifications" />
                     </div>
                 </section>
                 <section className="para-section">
                     <div className="content-para">
-                     <h1>Nao deixa para depois, <br/>
-                     deixa para os <br/>
-                    <span>devninjas</span>
-                     </h1>
+                        <h1>Nao deixa para depois, <br />
+                            deixa para os <br />
+                            <span>devninjas</span>
+                        </h1>
                     </div>
                 </section>
                 <section className="areas-section">
-                <div className="content-services">
+                    <div className="content-services">
                         <FeatureItem className="feature-item-areas" logo={logoTiCompanies} title="Empresa de T.I" description="Focados em alto desenpenho e aseguranca." />
                         <FeatureItem className="feature-item-areas" logo={logoAgencies} title="Para Agencias" description="Com interfaces clean e intuitivas." />
                         <FeatureItem className="feature-item-areas" logo={logoStartup} title="Startup's" description="Criamos a indentidade visual e pensamos na usabilidade e na experiencia do usuario." />
                     </div>
                 </section>
                 <section id="section4" className="areas-seu-projeto">
-                    <h2 className="title m-b-xl">Agora chegou a hora de saber mais<br/> sobre seu projetos!</h2>
+                    <h2 className="title m-b-xl">Agora chegou a hora de saber mais<br /> sobre seu projetos!</h2>
                     <div className="content-seu-projecto">
-                    <div className="content-form">
-                    <ContentFields className="m-b-lg">
-                        <h2>1. Qual è o tipo de seu projecto?</h2>
-                        <div className="content-inputs">
-                            <div className="input">
-                                <input type="checkbox" id="ios" name="ios"   />
-                                <label for="ios">IOS</label>
-                            </div>
-                            <div className="input">
-                                <input type="checkbox" id="android" name="android"   />
-                                <label for="android">Android</label>
-                            </div>
-                            <div className="input">
-                                <input type="checkbox" id="sweb" name="sweb"   />
-                                <label for="sweb">Sistema Web</label>
-                            </div>
-                            <div className="input">
-                                <input type="checkbox" id="smartwatch" name="smartwatch"   />
-                                <label for="smartwatch">Smartwatch</label>
-                            </div>
-                            <div className="input">
-                                <input type="checkbox" id="site" name="site"   />
-                                <label for="site">Site</label>
-                            </div>
-                            <div className="input">
-                                <input type="checkbox" id="weapi" name="weapi"   />
-                                <label for="weapi">Criacao/Integracao WEB API</label>
-                            </div>
-                        </div>                        
-                    </ContentFields>
-                    <ContentFields className="m-b-lg">
-                        <h2>2. Qual è o estagio do projecto</h2>
-                        <div className="content-inputs">
-                            <div className="input">
-                                <input type="radio" id="ideia" name="estagio"   />
-                                <label for="ideia">Ideia</label>
-                            </div>
-                            <div className="input">
-                                <input type="radio" id="execucao" name="estagio"   />
-                                <label for="execucao">Execucao</label>
-                            </div>
-                            <div className="input">
-                                <input type="radio" id="manutencao" name="estagio"   />
-                                <label for="manutencao">Manutencao</label>
-                            </div>
-                        </div>
-                    </ContentFields>
-                    <ContentFields className="m-b-lg b-r-3em">
-                        <h2 className="m-b-25">3. Informacoes Pessoais</h2>
-                        <div className="content-input-text">
-                            <input type="text" id="name" name="name" placeholder="Nome" />
-                            <input type="text" id="email" name="email" placeholder="E-mail"  />
-                            <input type="text" id="telefone" name="telefone" placeholder="Telefone" />
-                        </div>
-                        <div className="content-input-text">
-                            <input type="text" id="cidade" name="cidade" placeholder="Cidade" />
-                            <input type="text" id="empresa" name="empresa" placeholder="Empresa" />
-                            <input type="text" id="cargo" name="cargo" placeholder="Cargo"  />
-                        </div>
-                        <div className="content-input-textarea" id="projeto">
-                            <textarea placeholder="Explique seu projeto..."></textarea>
-                        </div>
-                        <div className="content-input-select">
-                            <select>
-                                <option value="" disabled selected>Como Chougo ate nos?</option>
-                                <option>Facebook</option>
-                                <option>Linkendin</option>
-                                <option>Pessoa</option>
-                            </select>
-                        </div>
-                    </ContentFields>
+                        <div className="content-form">
+                            <ContentFields className="m-b-lg">
+                                <h2>1. Qual è o tipo de seu projecto?</h2>
+                                <div className="content-inputs">
+                                    <div className="input">
+                                        <input type="checkbox" id="ios" name="ios" />
+                                        <label for="ios">IOS</label>
+                                    </div>
+                                    <div className="input">
+                                        <input type="checkbox" id="android" name="android" />
+                                        <label for="android">Android</label>
+                                    </div>
+                                    <div className="input">
+                                        <input type="checkbox" id="sweb" name="sweb" />
+                                        <label for="sweb">Sistema Web</label>
+                                    </div>
+                                    <div className="input">
+                                        <input type="checkbox" id="smartwatch" name="smartwatch" />
+                                        <label for="smartwatch">Smartwatch</label>
+                                    </div>
+                                    <div className="input">
+                                        <input type="checkbox" id="site" name="site" />
+                                        <label for="site">Site</label>
+                                    </div>
+                                    <div className="input">
+                                        <input type="checkbox" id="weapi" name="weapi" />
+                                        <label for="weapi">Criacao/Integracao WEB API</label>
+                                    </div>
+                                </div>
+                            </ContentFields>
+                            <ContentFields className="m-b-lg">
+                                <h2>2. Qual è o estagio do projecto</h2>
+                                <div className="content-inputs">
+                                    <div className="input">
+                                        <input type="radio" id="ideia" name="estagio" />
+                                        <label for="ideia">Ideia</label>
+                                    </div>
+                                    <div className="input">
+                                        <input type="radio" id="execucao" name="estagio" />
+                                        <label for="execucao">Execucao</label>
+                                    </div>
+                                    <div className="input">
+                                        <input type="radio" id="manutencao" name="estagio" />
+                                        <label for="manutencao">Manutencao</label>
+                                    </div>
+                                </div>
+                            </ContentFields>
+                            <ContentFields className="m-b-lg b-r-3em">
+                                <h2 className="m-b-25">3. Informacoes Pessoais</h2>
+                                <div className="content-input-text">
+                                    <input type="text" id="name" name="name" placeholder="Nome" />
+                                    <input type="text" id="email" name="email" placeholder="E-mail" />
+                                    <input type="text" id="telefone" name="telefone" placeholder="Telefone" />
+                                </div>
+                                <div className="content-input-text">
+                                    <input type="text" id="cidade" name="cidade" placeholder="Cidade" />
+                                    <input type="text" id="empresa" name="empresa" placeholder="Empresa" />
+                                    <input type="text" id="cargo" name="cargo" placeholder="Cargo" />
+                                </div>
+                                <div className="content-input-textarea" id="projeto">
+                                    <textarea placeholder="Explique seu projeto..."></textarea>
+                                </div>
+                                <div className="content-input-select">
+                                    <select>
+                                        <option value="" disabled selected>Como Chougo ate nos?</option>
+                                        <option>Facebook</option>
+                                        <option>Linkendin</option>
+                                        <option>Pessoa</option>
+                                    </select>
+                                </div>
+                            </ContentFields>
                         </div>
                     </div>
                     <div>
@@ -150,14 +150,12 @@ export default class Home extends Component {
                 </section>
                 <section className="gostou-section">
                     <div className="content-gostou">
-                     <h1>Gostou da gente?</h1>
-                     <h2>Vamos bater um papo. O catè è por nossa conta!</h2>
-                     <p>Ou manda um e-mail, whats, carta, pombo correio, sinal de fumaca...)</p>
+                        <h1>Gostou da gente?</h1>
+                        <h2>Vamos bater um papo. O catè è por nossa conta!</h2>
+                        <p>Ou manda um e-mail, whats, carta, pombo correio, sinal de fumaca...)</p>
                     </div>
                 </section>
-                <Footer logo={logoFooter}>
-
-                </Footer>
+                <Footer logo={logoFooter} />
             </div>
         )
     }

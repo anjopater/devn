@@ -7,7 +7,7 @@ class ContentFields extends Component {
         const { className, children } = this.props;
         return (
             <div className={classnames("content-fields", className)}>
-              {children}
+                {children}
             </div>
         )
     }

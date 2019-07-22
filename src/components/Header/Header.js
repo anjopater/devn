@@ -14,57 +14,57 @@ export default class Header extends Component {
 
             <div className="header-app">
                 <div className="content-options">
-                <img src={logo} alt="logo dev ninja" onClick={this.scrollToTop}/>
-                <ul>
-                    <li>
-                    <Link
-                        activeClass="active"
-                        to="section1"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
-                        Home
+                    <img src={logo} alt="logo dev ninja" onClick={this.scrollToTop} />
+                    <ul>
+                        <li>
+                            <Link
+                                activeClass="active"
+                                to="section1"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                Home
                     </Link>
-                    </li>
-                    <li>
-                    <Link
-                        activeClass="active"
-                        to="section2"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
-                        Servicios
+                        </li>
+                        <li>
+                            <Link
+                                activeClass="active"
+                                to="section2"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                Servicios
                     </Link>
-                    </li>
-                    <li>
-                    <Link
-                        activeClass="active"
-                        to="section3"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
-                        Desenvolvimento de Projetos
+                        </li>
+                        <li>
+                            <Link
+                                activeClass="active"
+                                to="section3"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                Desenvolvimento de Projetos
                     </Link>
-                    </li>
-                    <li>
-                    <Link
-                        activeClass="active"
-                        to="section4"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
-                        Orçamento
+                        </li>
+                        <li>
+                            <Link
+                                activeClass="active"
+                                to="section4"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                Orçamento
                     </Link>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         )
