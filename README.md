@@ -8,7 +8,7 @@ This project is done with `React.js` and `SASS`.
 2. `Npm - last version`
 
 
-## usage
+## Usage
 1. `npm install.`
 2. `npm start.`
 
