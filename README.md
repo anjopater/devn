@@ -1,8 +1,10 @@
 ## Hi devninjas!
 
-This project is done with `React.js` and `SASS`.
+This project was made with `React.js` and `SASS`.
 
 ## Environment
+
+Please install the followings tools.
 
 1. `Node.js - last version`
 2. `Npm - last version`
