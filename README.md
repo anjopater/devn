@@ -1,4 +1,3 @@
-## Hi devninjas!
 
 This project was made with `React.js` and `SASS`.
 
